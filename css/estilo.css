@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.titulo {
+    font-size: 52px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.navegacion {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(135, 173, 222)
+}
+
+.parrafo {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.principal {
+    margin: 0;
+padding: 0;
+    background-color: rgb(135, 173, 222);
+}
+
+.subtitulo {
+    font-size: 40px ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.logo {
+    width: 5rem;
+}
+
+.header {
+    background-color: rgb(77, 140, 221);
+    display: flex;
+    align-items: center;
+}
+
+.navegacion li {
+    padding: 0 2rem;
+}
+
+.imagenesTrabajo {
+    width: 15rem;
+}
+
+.formulario {
+    border: 2px black solid;
+}
+
+.seccionImagenesLaburos {
+    display: flex;
+    flex-direction: space-evenly;
+    flex-wrap: wrap;
+    width: 700px;
+}
+
+.divLaburos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
